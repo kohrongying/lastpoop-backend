@@ -12,7 +12,6 @@ plugins:
 custom:
   wsgi:
     app: app.app
-    packRequirements: true
 
 functions:
   app:

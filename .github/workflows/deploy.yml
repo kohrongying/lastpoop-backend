@@ -16,7 +16,7 @@ jobs:
         python-version: '3.9'
     - run: pip install -r requirements.txt
     - name: Install Plugin and Deploy
-      uses: serverless/github-action@v3.1
+      uses: serverless/github-action@v3
       with:
         args: -c "serverless plugin install --name serverless-wsgi && serverless deploy"
         entrypoint: /bin/sh
